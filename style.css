@@ -60,6 +60,10 @@ html, body{
     border-top: 1px solid #3D538A;
 } */
 
+.section-timers{
+    display: flex
+}
+
 [class*='timers-'] h1{
     /* Bold_12px */
     font-family: 'Pretendard';
@@ -72,6 +76,8 @@ html, body{
 
     /* light */
     color: #A5B6EE;
+
+    margin-bottom: 4px;
 }
 
 .box-timer{
@@ -89,6 +95,51 @@ html, body{
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
-    
+
     line-height: 200%;
+    margin: 0 auto;
+    
+}
+
+.sectoin-buttons{
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.sectoin-buttons .btn-start{
+    width: 112px;
+    height: 48px;
+    background-image: url(./images/button/start-disabled.png);
+    background-size: contain;
+}
+.sectoin-buttons .btn-reset{
+    width: 112px;
+    height: 48px;
+    background-image: url(./images/button/reset-disabled.png);
+    background-size: contain;
+}
+
+.sectoin-buttons .btn-start:hover{
+    background-image: url(./images/button/start-default.png);
+}
+.sectoin-buttons .btn-reset:hover{
+    background-image: url(./images/button/reset-default.png);
+}
+
+footer p{
+/* Regular_14px */
+
+font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #8596BF;
+
+margin-top: 60px;
 }
