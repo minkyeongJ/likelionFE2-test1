@@ -1,0 +1,19 @@
+@import "reset.css";
+
+html, body{
+    background: linear-gradient(to bottom right, #F0F4FF, #A5B6EE);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+.header-title{
+    background-image: url(./images/weniv-logo.png);
+    width: 224px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto; 
+    margin-top: 72px;
+}
