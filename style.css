@@ -1,4 +1,9 @@
 @import "reset.css";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
 
 html, body{
     background: linear-gradient(to bottom right, #F0F4FF, #A5B6EE);
@@ -16,4 +21,74 @@ html, body{
     background-size: contain;
     margin: 0 auto; 
     margin-top: 72px;
+    margin-bottom: 60px;
+}
+
+.section-timerBox{
+    background: linear-gradient(to bottom right, #5572BB, #374B7C);
+    border-radius: 16px;
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    padding: 48px 58px 40px;
+    width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.section-title{
+    /* Bold_24px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 23px;
+}
+
+/* .section-title::after{
+    content: ' ';
+    top:0;
+    right:0;
+    width: 312px;
+    height: 1px;
+    border-top: 1px solid #3D538A;
+} */
+
+[class*='timers-'] h1{
+    /* Bold_12px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* light */
+    color: #A5B6EE;
+}
+
+.box-timer{
+    width: 80px;
+    height: 80px;
+    background-image: url(./images/box.png);
+    background-size: contain;
+
+    /* Bold_40px */
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    
+    line-height: 200%;
 }
